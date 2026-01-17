@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management System - C Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            background-color: white;
+            margin: 15px auto;
+            padding: 20px;
+            max-width: 900px;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        ul {
+            line-height: 1.7;
+        }
+        img {
+            width: 280px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        video {
+            width: 100%;
+            max-width: 550px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #eee;
+            margin-top: 20px;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 3px 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Management System</h1>
+    <p>C Language Console-Based Project</p>
+</header>
+
+<section>
+    <h2>📌 Project Introduction</h2>
+    <p>
+        This <strong>Student Management System</strong> is a console-based application
+        developed using the <strong>C programming language</strong>.
+        The project is created to understand how student records can be stored,
+        accessed, updated, and deleted using basic programming logic.
+    </p>
+    <p>
+        The entire system runs in the terminal and does not use any external libraries
+        or databases. All operations are handled using core C concepts.
+    </p>
+</section>
+
+<section>
+    <h2>🧠 What This Program Actually Does</h2>
+    <ul>
+        <li>Stores student information such as roll number, name, and marks</li>
+        <li>Allows the user to add multiple student records</li>
+        <li>Displays all stored student records</li>
+        <li>Searches a student using roll number</li>
+        <li>Updates existing student data</li>
+        <li>Deletes student records when required</li>
+        <li>Calculates total marks and percentage</li>
+    </ul>
+</section>
+
+<section>
+    <h2>⚙️ How the Code Works (Logic Explanation)</h2>
+    <ul>
+        <li>The program uses <code>menu-driven logic</code> with switch-case</li>
+        <li>Each menu option calls a separate function</li>
+        <li>Student data is written to a file using file handling</li>
+        <li>Data remains saved even after program termination</li>
+        <li>Loops are used to repeat operations until the user exits</li>
+    </ul>
+</section>
+
+<section>
+    <h2>💾 File Handling Used</h2>
+    <p>
+        This project uses <strong>file handling</strong> to store data permanently.
+    </p>
+    <ul>
+        <li><code>fopen()</code> to open files</li>
+        <li><code>fwrite()</code> to store student records</li>
+        <li><code>fread()</code> to read stored data</li>
+        <li><code>fclose()</code> to close the file</li>
+    </ul>
+    <p>
+        Because of this, student data is not lost when the program is closed.
+    </p>
+</section>
+
+<section>
+    <h2>🛠 Technologies & Tools</h2>
+    <ul>
+        <li><strong>Programming Language:</strong> C</li>
+        <li><strong>IDE:</strong> Turbo C / VS Code</li>
+        <li><strong>Compiler:</strong> GCC</li>
+        <li><strong>Platform:</strong> Windows</li>
+    </ul>
+</section>
+
+<section>
+    <h2>▶️ How to Run the Program</h2>
+    <p>Compile and execute the program using the following commands:</p>
+    <pre>
+gcc student.c -o student
+student
+    </pre>
+</section>
+
+<section>
+    <h2>📸 Program Output Screenshots</h2>
+    <p>Below screenshots show the real output of the program:</p>
+    <img src="ss2.png" alt="Main Menu">
+    <img src="ss2.png" alt="Student Details">
+</section>
+
+<section>
+    <h2>🎥 Program Execution Video</h2>
+    <p>
+        The video below shows the actual working of the program including
+        adding, viewing, and searching student records.
+    </p>
+    <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Video not supported by browser.
+    </video>
+</section>
+
+<section>
+    <h2>📈 Limitations</h2>
+    <ul>
+        <li>Console-based (no GUI)</li>
+        <li>Limited input validation</li>
+        <li>Designed for learning purposes</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🚀 Future Improvements</h2>
+    <ul>
+        <li>Add graphical interface</li>
+        <li>Improve input validation</li>
+        <li>Connect with database</li>
+        <li>Convert into web-based system</li>
+    </ul>
+</section>
+
+<section>
+    <h2>👨‍💻 Author</h2>
+    <p>
+        <strong>Chetan Dhapkas</strong><br>
+        Engineering Student<br>
+        C Programming & Web Development Learner
+    </p>
+</section>
+
+<footer>
+    <p>Student Management System | C Language Project</p>
+</footer>
+
+</body>
+</html>
